@@ -4,5 +4,11 @@ public class feature2 {
         System.out.println("feuture2");
         System.out.println("working..");
         System.out.println("and working...");
+
+        for (String arg : args) {
+
+            System.out.println(arg);
+
+        }
     }
 }
